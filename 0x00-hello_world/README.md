@@ -1,6 +1,4 @@
-C-Hello World 
-
-
+Hello World 
 
 0-A script that runs a C file through the preprocessore and sav the result into another file 
 
