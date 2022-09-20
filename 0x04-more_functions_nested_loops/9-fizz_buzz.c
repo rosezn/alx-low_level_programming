@@ -18,7 +18,7 @@ int main(void)
 			if (h == 100)
 			{
 				printf("Buzz");
-				printf('\n');
+				printf("\n");
 			}
 			else
 				printf("Buzz ");
@@ -27,7 +27,7 @@ int main(void)
 			printf("Fizz ");
 		else
 			printf("%d ", h);
-		h++;
+	h++;
 	}
 	return (0);
 }
