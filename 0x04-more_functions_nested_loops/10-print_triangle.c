@@ -7,7 +7,7 @@
  * Return: returns nothing
  */
 
-voif print_trianlge(int size)
+void print_trianlge(int size)
 {
 	int inc1, inc2;
 
