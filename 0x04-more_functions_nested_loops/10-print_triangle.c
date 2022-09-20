@@ -3,11 +3,11 @@
 
 /**
  * print_triangle - prints a triangle
- * @size:size parameter of triangle
+ * @size: parameter of a triangle
  * Return: returns nothing
  */
 
-void print_triangle(int size)
+voif print_trianlge(int size)
 {
 	int inc1, inc2;
 
@@ -15,11 +15,11 @@ void print_triangle(int size)
 	{
 		for (inc1 = 1; inc1 <= size; inc1++)
 		{
-			for ((inc2 = size - inc1); inc2 > 0; inc2--)
+			for ((inc2 = size - inc 1); inc2 > 0; inc2--)
 			{
 				putchar(' ');
 			}
-			
+
 			for (inc2 = 0; inc2 < inc1; inc2++)
 			{
 				putchar('#');
@@ -29,7 +29,7 @@ void print_triangle(int size)
 			{
 				continue;
 			}
-			
+
 			putchar('\n');
 		}
 	}
