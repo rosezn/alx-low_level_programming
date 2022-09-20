@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - function that checks for uppercase character.
  * Return: 0
@@ -20,7 +21,7 @@ int main(void)
 				printf('\n');
 			}
 			else
-				printf("Bizz ");
+				printf("Buzz ");
 		}
 		else if (h % 3 == 0)
 			printf("Fizz ");
