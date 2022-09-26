@@ -14,7 +14,12 @@ int main(void)
 	for  (inc = 0; inc < 50; inc++)
 	{
 		n3 = n1 + n2;
-		printf("\n");
+		printf("%lu", n3);
+		n1 = n2;
+		n2 = n3;
+
+		if (inc == 49)
+			printf("\n");
 	
 		else
 			printf(",");
