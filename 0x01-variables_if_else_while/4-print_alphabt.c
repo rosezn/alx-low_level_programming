@@ -1,20 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase,
- * followed by a new lie, except q and e
- * Return: Always 0 (Success)
+ * main - print if the number is postive, zero, or negative
+ *
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative
+ * Return: 0
  */
 int main(void)
 {
 	char ch;
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		if (ch != 'e' && != 'q')
+		if (ch != 'e' && ch != 'q')
 		{
 			putchar(ch);
 		}
 	}
 	putchar('\n');
-	reurn (0);
+	return (0);
 }
