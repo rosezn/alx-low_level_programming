@@ -5,19 +5,16 @@
  * followed by a new lie, except q and e
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char ch = 'a';
-
-	while (ch <= 'z')
+	char ch;
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		if ch != 'e' && ch != 'q')
+		if (ch != 'e' && != 'q')
 		{
 			putchar(ch);
 		}
-		ch++;
 	}
-	pitcharc('\n');
-	return (0);
+	putchar('\n');
+	reurn (0);
 }
