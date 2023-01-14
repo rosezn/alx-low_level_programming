@@ -1,10 +1,10 @@
 #include "main.h"
 
-/*
- * _strspn - gets the length of a prefix substring.
+/**
+ * _strspn - prints the consecutive characters of s1 that are in s2.
  * @s: source string
  * @accept: searching string
- * Return: number of bytes in the initial segment of s which only consists of bytes from accept.
+ * Return: new string.
  */
 
 unsigned int _strspn(char *s, char *accept)
