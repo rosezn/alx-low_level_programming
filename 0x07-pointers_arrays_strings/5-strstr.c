@@ -1,13 +1,13 @@
 #include "main.h"
 
 /*
- * _strstr - finds the first occurence of the substring needle in the string haystack.
+ * _strstr - first occurence of the substring needle in the string haystack.
  * @haystack: source string
  * @needle: searched in haystack
  * Return: retun 0
  */
 
-char *_strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle)
 {
 	char *str1, *str2; /*Declaring variables*/
 

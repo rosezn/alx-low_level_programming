@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /*
- * _strpbrk - locates the first occurence in the string s of any of the bytes in the string accept.
+ * _strpbrk - prints the consecutive characters of s that are in s2.
  * @s: source string
  * @accept: searching string
  *
  * Return: new string
  */
 
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
